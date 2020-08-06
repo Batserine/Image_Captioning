@@ -8,6 +8,20 @@ Image Captioning using Deep learning models in Keras. The models were trained on
 3. Evaluate the model 
 4. Using this model generate caption for new pictures.
 
+## Using word to index procedure
+### Steps:
+
+1. Data collection
+2. Understanding the data
+3. Data Cleaning
+4. Loading the training set
+5. Data Preprocessing — Images
+6. Data Preprocessing — Captions
+7. Data Preparation using Generator Function
+8. Word Embeddings
+9. Model Architecture
+10. Inference
+
 ## Dataset:
 After requesting the dataset from the author's website. I got these two files.
 1. Flickr8k_Dataset: Contains 8092 photographs in JPEG format.
@@ -15,6 +29,11 @@ After requesting the dataset from the author's website. I got these two files.
 
 
 The dataset has a pre-defined training dataset (6,000 images), development dataset (1,000 images), and test dataset (1,000 images).
+
+## Deployment:
+Built a basic web app using Flask. It takes an image as input and generates a caption to it.
+![Web app](https://github.com/Batserine/Image_Captioning/blob/master/IC_Deploying/output.png)
+
 
 ## Comments:
 1. From the result you can see it's not accurate because model was trained for 5 epochs due to limited GPU time Google colab. 
